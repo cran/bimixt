@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+import("pROC")
+importFrom("graphics", "hist", "lines", "plot")
+importFrom("stats", "approx", "dnorm", "kmeans", "median", "na.omit",
+             "optimize", "pchisq", "pnorm", "qnorm", "rbinom", "rnorm",
+             "sd")
+S3method(plot, model)
+S3method(print, model)
+S3method(summary, model)
